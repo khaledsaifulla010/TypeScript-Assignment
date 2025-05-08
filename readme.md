@@ -19,7 +19,7 @@ let age = 25; // TypeScript knows this is a number
 2. Fewer errors – TypeScript catches type-related bugs early
 3. Better readability – The code is cleaner and easier to read
 
-##2️⃣ How does TypeScript help in improving code quality and project maintainability?
+## 2️⃣ How does TypeScript help in improving code quality and project maintainability?
 
 ### Answer:
 
