@@ -49,7 +49,6 @@ function processValue(value: string | number): number {
   return typeof value === "string" ? value.length : value * 2;
 }
 
-
 interface Product {
   name: string;
   price: number;
@@ -70,4 +69,16 @@ const products = [
   { name: "Notebook", price: 25 },
   { name: "Bag", price: 50 },
 ];
- 
+
+enum Day {
+  Monday,
+  Tuesday,
+  Wednesday,
+  Thursday,
+  Friday,
+  Saturday,
+  Sunday,
+}
+function getDayType(day: Day): string {
+  return day === Day.Saturday || day === Day.Sunday ? "Weekend" : "Weekday";
+}
