@@ -23,7 +23,8 @@ let age = 25; // TypeScript knows this is a number
 
 ### Answer:
 
-**TypeScript** improves both code quality and project maintainability by adding type safety and helpful features on top of JavaScript. It helps catch errors early and makes code easier to manage, especially in large projects.
+**TypeScript** improves both code quality and project maintainability by adding type safety and helpful features on top of JavaScript. It helps catch errors early and makes code easier to manage, especially in large projects. <br>
+
 **🛠 How it improves code quality:**
 
 1.  Type checking – Warns you if you use the wrong data types
